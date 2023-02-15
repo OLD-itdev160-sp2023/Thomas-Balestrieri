@@ -1,0 +1,35 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+}
+
+h1{
+    text-align: center;
+    width: 100vw;
+    background-color: #eee;
+}
+
+figure{
+    display: inline-flex;
+    align-items: center;
+}
+img{
+    width: 38px;
+    padding-right: 10px;
+}
+
+figcaption span{
+    font-size: 1rem;
+}
+
+#product-desc{
+    margin: 20px 0 20px 0;
+    text-align: justify;
+}
+
+.review{
+    padding: 10px;
+    background-color: #eee;
+    margin: 20px 0 20px 0;
+
+}

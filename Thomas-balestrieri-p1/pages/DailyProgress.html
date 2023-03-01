@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Planner</title>
+    <link rel="stylesheet" href="/Thomas-balestrieri-p1/style.css" />
+</head>
+<body>
+        <header>
+          <nav>
+            <ul>
+              <li><a href="/Thomas-balestrieri-p1/index">Home</a></li>
+              <li><a class="current" href="/Thomas-balestrieri-p1/pages/DailyProgress">Daily Progress</a></li>
+            </ul>
+          </nav>
+          <img
+            class="header-image"
+            src="/Thomas-balestrieri-p1/images/banner.jpeg"
+            alt="banner image"
+          />
+          <h1>Daily Planner</h1>
+        </header>
+        <main>
+          <section class="description">
+            <p>
+              This is the progress you have made so far.<br />
+              Keep it up!
+            </p>
+          </section>
+          
+          <section id="todoTable-Section">
+            <table id="todo-table" cellspacing="20">
+              <thead>
+                <tr>
+                  <th scope="column">To-Do:</th>
+                  <th scope="column">Finsished To-Do</th>
+                  <th scope="column">Remove To-DO</th>
+                </tr>
+              </thead>
+              <tbody id="table-body">
+                <tr class="todo-row">
+                    <td class="todo-text">This is what i need to do for today</td>
+                    <td>
+                      <button onclick="finished()" class="finished-button">
+                        Finished
+                      </button>
+                    </td>
+                    <td>
+                      <button onclick="removed()" class="remove-button">
+                        Remove
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="todo-row">
+                    <td class="todo-text">
+                      This is another thing that i need to get done today
+                    </td>
+                    <td>
+                      <button onclick="finished()" class="finished-button">
+                        Finished
+                      </button>
+                    </td>
+                    <td>
+                      <button onclick="removed()" class="remove-button">
+                        Remove
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="todo-row">
+                    <td class="todo-text">
+                      This is another thing that i need to get done today
+                    </td>
+                    <td>
+                      <button onclick="finished()" class="finished-button">
+                        Finished
+                      </button>
+                    </td>
+                    <td>
+                      <button onclick="removed()" class="remove-button">
+                        Remove
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="todo-row">
+                    <td class="todo-text">
+                      This is another thing that i need to get done today
+                    </td>
+                    <td>
+                      <button onclick="finished()" class="finished-button">
+                        Finished
+                      </button>
+                    </td>
+                    <td>
+                      <button onclick="removed()" class="remove-button">
+                        Remove
+                      </button>
+                    </td>
+                  </tr>
+              </tbody>
+            </table>
+          </section>
+        </main>
+        <footer></footer>
+        <script src="script.js"></script>
+</body>
+</html>

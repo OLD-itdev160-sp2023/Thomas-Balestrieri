@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+*{
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Tilt Neon', cursive, sans-serif;
+}
+body{
+    background: rgba(19, 230, 209, 0.371);
+background: linear-gradient(340deg, rgba(19, 230, 209, 0.133) 12%, rgba(9, 37, 121, 0.085) 48%, rgba(0, 255, 191, 0.139) 100%);
+height: 100vh;
+}
+nav{
+    margin-right: 10px;
+    margin-top: 5px;
+}
+nav ul{
+    display: flex;
+    justify-content: end;
+    font-size: 1.2rem;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 10px;
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 10px;
+}
+.current {
+  color: rgb(52, 55, 250);
+}
+.current:visited {
+    color: rgb(11, 58, 199);
+  text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+
+.header-image{
+    width:100vw;
+    height: 30vh;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    object-fit: cover;
+}
+h1{
+    text-align: center;
+    margin-top: 2rem;
+    padding-bottom: 2.5rem;
+
+}
+.description{
+    text-align: center;
+    padding-bottom: 3.5rem;
+    font-size: 1.5rem;
+}
+
+#todo-table{
+    border-collapse: separate;
+    border: 5px solid #999;
+    margin: 0 auto;
+    width: 100%;
+    table-layout: auto;
+}
+
+.todo-row{
+    text-align: center;
+}
+.todo-row td{
+    border-bottom: 1px solid rgb(45, 145, 181);
+    width: fit-content;
+}
+.finished-button{
+    background-color: rgba(41, 178, 41, 0.502);
+    height: 2.6rem;
+    width: 5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.complete-button{
+    background-color: rgba(153, 178, 41, 0.502);
+    height: 2.6rem;
+    width: 5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.remove-button{
+    background-color: rgba(178, 43, 41, 0.502);
+    height: 2.6rem;
+    width: 5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.todo-text{
+    font-size: 1.1rem;
+}
+.todo-text-finished{
+    text-decoration: line-through;
+}
+#todo-form{
+    text-align: center;
+    margin: 5% auto;
+    padding-bottom: 120px;
+}
+#todo-form label{
+    font-size: 1.5rem;
+}
+#todo-input{
+    width: 30%;
+    height: 40px;
+    font-size: 1rem;
+}
+#todo-form button{
+    width: 140px;
+    height: 41px;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    background-color: rgb(71, 154, 201);
+    border-radius: 5px;
+}

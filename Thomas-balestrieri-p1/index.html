@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Daily Planner</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a class="current" href="/Thomas-balestrieri-p1/index">Home</a></li>
+          <li><a href="pages/DailyProgress">Daily Progress</a></li>
+        </ul>
+      </nav>
+      <img
+        class="header-image"
+        src="/Thomas-balestrieri-p1/images/banner.jpeg"
+        alt="banner image"
+      />
+      <h1>Daily Planner</h1>
+    </header>
+    <main>
+      <section class="description">
+        <p>
+          In this daily planner you can enter and sumbit things you need to
+          do.<br />
+          This website allows you to cross off or delete the to-dos that youve
+          submitted.
+        </p>
+      </section>
+      
+      <section id="todoTable-Section">
+        <table id="todo-table" cellspacing="20">
+          <thead>
+            <tr>
+              <th scope="column">To-Do:</th>
+              <th scope="column">Finsished To-Do</th>
+              <th scope="column">Remove To-DO</th>
+            </tr>
+          </thead>
+          <tbody id="table-body">
+          </tbody>
+        </table>
+      </section>
+
+      <section id="todoInput-section">
+        <form action="" id="todo-form">
+            <label for="todo-input">Enter a To-DO:</label><br>
+            <input id="todo-input" type="text" required>
+            <button>Sumbit</button>
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+  </body>
+</html>

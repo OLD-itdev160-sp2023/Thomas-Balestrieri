@@ -1,0 +1,46 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: auto 30px;
+}
+
+#credits {
+  font-style: italic;
+  font-size: 0.75em;
+  margin-bottom: 20px;
+}
+header {
+  text-align: center;
+  background-color: rgba(42, 42, 90, 0.217);
+}
+#header-image {
+  width: 100%;
+  margin: auto;
+}
+
+.package-container {
+  background-color: rgba(128, 128, 128, 0.403);
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 350px;
+  color: rgb(30, 42, 61);
+}
+
+#p1-description,
+#p2-description,
+#p3-description {
+  margin-left: 35px;
+  width: 80%;
+}
+
+#p1-name,
+#p2-name,
+#p3-name {
+  background-color: rgb(201, 181, 157);
+  width: fit-content;
+  padding: 5px;
+}
